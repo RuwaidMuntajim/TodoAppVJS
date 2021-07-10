@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color:  rgb(12, 37, 177);
+}
+
+.input-content {
+    padding-top: 30px;
+}
+
+
+#title {
+    font-family: Ubuntu;
+    font-weight: 400;
+    color: cornsilk;
+}
+
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+input {
+    background-color: cornsilk;
+    color: darkgray;
+    border-radius: 10px 0 0 10px;
+    object-fit: contain;
+    width: 45%;
+    height: 45px;
+    padding-left: 10px;
+    border-style: none;
+    outline: none; 
+    caret-color: rgb(12, 37, 177);
+    margin-top: 10px;
+    
+}
+
+
+button {
+    background-color: gold ;
+    height: 45px;
+    width: 70px;
+    border-radius: 0 10px 10px 0;
+    border-style: none;
+    outline: none !important;
+    margin-top: 10px;
+}
+
+.todo-content {
+    padding: 25px;
+}
+
+ul {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    object-fit: contain;
+
+}
+
+li {
+    margin-top: 15px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    height: 50px;   
+    background-color: gold ;
+}
+
+span {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+
+
+
+#cross {
+    cursor: pointer;
+}
+
+
+#todolist {
+    overflow-x: scroll;
+}
+
+
+
+
+
+
+
+@media (max-width: 425px) {
+    span {
+        font-size: 15px;
+
+    }
+    button {
+        width: 50px;
+    }
+    li {
+        height: 50px !important;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    input {
+        object-fit: contain;
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    li {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
