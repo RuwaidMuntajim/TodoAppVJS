@@ -1,2 +1,2 @@
 # TodoAppVJS
-Todo App using Vanilla JavaScript, Firebase's database and authentication service
+Todo App using Vanilla JavaScript, Firebase's database service
